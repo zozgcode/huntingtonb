@@ -66,7 +66,7 @@ export default function Login() {
                   <input
                     type="text"
                     value={username}
-                    className="p-5 rounded-[10px] text-[#5c5c5c] bg-transparent pb-5 border border-gray-300 outline-none"
+                    className="p-5 rounded-[10px] text-[#5c5c5c] bg-transparent py-3 border border-gray-300 outline-none"
                     onChange={(e) => setUsername(e.target.value)}
                   />
                 </div>
@@ -80,7 +80,7 @@ export default function Login() {
                   <input
                     type="password"
                     value={password}
-                    className="p-5 rounded-[10px] text-[#5c5c5c] bg-transparent pb-5 border border-gray-300 outline-none"
+                    className="p-5 rounded-[10px] text-[#5c5c5c] bg-transparent py-3 border border-gray-300 outline-none"
                     onChange={(e) => setPassword(e.target.value)}
                   />
                 </div>
@@ -97,12 +97,12 @@ export default function Login() {
               <div className="flex flex-col gap-2 mt-6">
                 <button
                   type="submit"
-                  className="p-4 bg-[#394048] text-lg flex items-center justify-center gap-1 font-bold w-full rounded-[50px] text-white"
+                  className="p-4 py-3 bg-[#394048] text-base flex items-center justify-center gap-1 font-bold w-full rounded-[50px] text-white"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
-                    className="w-9 h-9 fill-white"
+                    className="w-7 h-7 fill-white"
                     focusable="false"
                     role="presentation"
                     aria-hidden="true"
