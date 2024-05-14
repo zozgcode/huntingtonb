@@ -88,7 +88,7 @@ export default function Login() {
                 </div>
 
                 <div className="mt-6">
-                  <label className="text-base">
+                  <label className="text-base flex items-center">
                     Remember Me
                     <input type="checkbox" className="ml-2" />
                     <span className="checkmark"></span>
