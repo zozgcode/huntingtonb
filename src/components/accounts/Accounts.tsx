@@ -32,7 +32,7 @@ export default function Dashboard() {
   };
 
   return (
-    <div className="relative">
+    <div className="">
       {!user && (
         <div className="h-screen flex flex-col top-0 bg-white left-0 right-0 items-center fixed z-50 justify-center w-full text-2xl">
           <div className="loader"></div>

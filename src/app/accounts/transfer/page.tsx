@@ -19,20 +19,14 @@ export default function TransferPage() {
         <p className="text-14 text-center text-gray-700">
           You are ineligible to make a fund transfer at this time. Please
           contact support Services if you
-          have questions
+          have questions.
         </p>
-        {/* <p className="text-14 text-center text-gray-700">
-          You are ineligible to make a fund transfer at this time. Please
-          contact Member Services at{" "}
-          <span className="underline text-primary">(888) 732-8562</span> if you
-          have questions
-        </p> */}
       </div>
-      {/* <div className="flex items-center justify-center fixed bottom-[100px] w-full">
-        <button className="bg-[#2f5e80] w-9/12 mx-auto rounded-lg py-1 text-white">
+      <div className="flex items-center justify-center fixed bottom-[100px] w-full">
+        <button className="bg-[#4D841B] w-9/12 mx-auto rounded-lg py-1 text-white">
           Verify
         </button>
-      </div> */}
+      </div>
     </div>
   );
 }
